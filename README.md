@@ -3,18 +3,22 @@
 ВКР по курсу «Наука о данных: профессиональный уровень (Data Science PRO)».
 
 ## Структура репозитория
+
+```
 notebooks/
-├── 01_data_preparation.ipynb — очистка данных, обработка пропусков и выбросов
-├── 02_rfm.ipynb — построение RFM-признаков и целевой переменной churn
+├── 01_data_preparation.ipynb          — очистка данных, обработка пропусков и выбросов
+├── 02_rfm.ipynb                       — построение RFM-признаков и целевой переменной churn
 ├── 03_modeling_churn_prediction.ipynb — обучение и сравнение моделей (LogReg, RandomForest, XGBoost, LightGBM)
-├── 04_pipeline_1.ipynb — production-класс ChurnPipeline (fit/predict/save/load)
+├── 04_pipeline_1.ipynb                — production-класс ChurnPipeline (fit/predict/save/load)
 └── 05_neural_network_comparison.ipynb — нейросеть (MLP) и сравнение с остальными моделями
 
 app/
-├── app.py — Streamlit-приложение для скоринга оттока
-├── churn_pipeline.pkl — обученный пайплайн
-├── dataset_anonymized_demo_sample.csv — демо-выборка для приложения (1200 клиентов)
-└── requirements.txt — зависимости приложения
+├── app.py                              — Streamlit-приложение для скоринга оттока
+├── churn_pipeline.pkl                  — обученный пайплайн
+├── dataset_anonymized_demo_sample.csv  — демо-выборка для приложения (1200 клиентов)
+└── requirements.txt                    — зависимости приложения
+```
+
 ## Задача
 
 Прогнозирование вероятности оттока B2B-клиентов на основе истории заказов:
