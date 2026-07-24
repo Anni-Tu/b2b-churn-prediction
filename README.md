@@ -29,8 +29,9 @@ app/
 
 Полные датасеты, использованные в ноутбуках, доступны на Яндекс.Диске:
 
-[Датасеты (Яндекс.Диск)](https://disk.yandex.ru/d/zEnL6erWd6mlUg)
-[Датасеты (Яндекс.Диск)](https://disk.yandex.ru/d/ry6hLMe93jOgmQ)
+[Датасет 1](https://disk.yandex.ru/d/zEnL6erWd6mlUg)
+
+[Датасет 2](https://disk.yandex.ru/d/ry6hLMe93jOgmQ)
 
 ## Запуск приложения
 
